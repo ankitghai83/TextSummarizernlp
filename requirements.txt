@@ -1,0 +1,23 @@
+## Necceasry libraries to install for text summarization using Transformers
+transformers
+transformers[sentencepiece] ## If youwant to use hugging face api then u need transformers[sentencepiece]
+datasets
+## For text summarization we use row matrics for that we need sacreblue library
+sacrebleu ## for BLEU score calculation to evaludate the model performance w.r.t quality of text generated vs reference text
+rouge-score ## for ROUGE score calculation to evaludate the model performance w.r.t quality of text generated vs reference text
+py7zr ## for extracting the data from 7z file
+pandas
+nltk
+tqdm ## for progress bar
+PyYAML ## for reading the yaml file
+matplotlib
+torch ## for deep learning
+notebook ## for jupyter notebook
+boto3 ## for AWS S3 bucket
+mypy-boto3-s3 ## for AWS S3 bucket
+python-box==6.0.2 ## for reading the yaml file
+ensure==1.0.2 ## for reading the yaml file
+fastapi==0.78.0 ## for API
+uvicorn==0.18.0 ## for API
+Jinja2==3.1.2 ## for API
+-e .
