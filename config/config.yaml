@@ -1,0 +1,7 @@
+artifacts_root: artifacts ## Path to store artifacts generated during the training process from the model
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion ## Path to store the data
+  source_URL: https://github.com/ankitghai83/branching_data/raw/refs/heads/main/samsumdata.7z
+  local_data_file: artifacts/data_ingestion/data.7z
+  unzip_dir: artifacts/data_ingestion
