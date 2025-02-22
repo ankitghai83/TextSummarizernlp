@@ -2,6 +2,12 @@ artifacts_root: artifacts ## Path to store artifacts generated during the traini
 
 data_ingestion:
   root_dir: artifacts/data_ingestion ## Path to store the data
-  source_URL: https://github.com/ankitghai83/branching_data/raw/refs/heads/main/samsumdata.7z
+  source_URL: https://github.com/ankitghai83/branching_data/raw/refs/heads/main/samsum-test.7z
   local_data_file: artifacts/data_ingestion/data.7z
   unzip_dir: artifacts/data_ingestion
+
+
+data_validation:
+  root_dir: artifacts/data_validation ## Path to store the data
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIRED_FILES: ["train","test","validation"]
