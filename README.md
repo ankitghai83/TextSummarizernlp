@@ -15,3 +15,7 @@
 7. Update main.py
 8. Update app.py
 
+
+
+AWS URI FOR ELASTIC CONTAINER REPOSITORY : 371424021712.dkr.ecr.us-east-1.amazonaws.com/texts
+
